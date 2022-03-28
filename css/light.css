@@ -1,0 +1,67 @@
+body {
+  background-image: url("../images/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: white;
+}
+
+.input {
+  background-color: white;
+  color: black;
+  caret-color: black;
+}
+
+.circle {
+  border: 1px solid #393a4b57;
+}
+
+.main-container {
+  background-color: white;
+  box-shadow: 0 0 10px 15px #00000012;
+}
+.control-filter {
+  color: #00000070;
+}
+
+.filter li:hover,
+.clear-complited:hover {
+  color: black;
+}
+
+.container {
+  border-bottom: 1px solid #e3e4f10f;
+  color: white;
+}
+.para {
+  color: black;
+}
+.task-done {
+  color: #5b5b5e;
+}
+
+.active {
+  color: #3a7cfd;
+}
+.filter li.active:hover {
+  color: #3a7cfd;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 80px;
+  color: black;
+}
+.attribution a {
+  font-size: 11px;
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-image: url("../images/bg-mobile-light.jpg");
+  }
+  .filter {
+    background-color: white;
+    box-shadow: 0 0 10px 15px #00000012;
+  }
+}

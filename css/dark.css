@@ -1,0 +1,60 @@
+body {
+  background-image: url("../images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(235, 21%, 11%);
+}
+
+.input {
+  background-color: hsl(235, 24%, 19%);
+  color: white;
+  caret-color: white;
+}
+
+.circle {
+  border: 1px solid #393a4b;
+}
+
+.main-container {
+  background-color: hsl(235, 24%, 19%);
+}
+.control-filter {
+  color: #e3e4f161;
+}
+
+.filter li:hover,
+.clear-complited:hover {
+  color: #e3e4f1;
+}
+
+.container {
+  border-bottom: 1px solid #e3e4f10f;
+  color: white;
+}
+
+.task-done {
+  color: #5b5b5e;
+}
+
+.active {
+  color: #3a7cfd;
+}
+.filter li.active:hover {
+  color: #3a7cfd;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 80px;
+  color: white;
+}
+.attribution a {
+  font-size: 11px;
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-image: url("../images/bg-mobile-dark.jpg");
+  }
+}
